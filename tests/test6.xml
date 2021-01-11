@@ -1,0 +1,31 @@
+<automaton>
+    <state name="a" initial="true" final="false">
+	<transfer signal="0" destination="b"/>
+	<transfer signal="1" destination="c"/>
+    </state>
+
+    <state name="b" initial="false" final="false">
+	<transfer signal="0" destination="a"/>
+	<transfer signal="1" destination="d"/>
+    </state>
+
+    <state name="d" initial="false" final="true">
+	<transfer signal="0" destination="e"/>
+	<transfer signal="1" destination="f"/>
+    </state>
+
+    <state name="f" initial="false" final="false">
+	<transfer signal="0" destination="f"/>
+	<transfer signal="1" destination="f"/>
+    </state>
+
+    <state name="e" initial="false" final="true">
+	<transfer signal="0" destination="e"/>
+	<transfer signal="1" destination="f"/>
+    </state>
+
+    <state name="c" initial="false" final="true">
+	<transfer signal="0" destination="e"/>
+	<transfer signal="1" destination="f"/>
+    </state>
+</automaton>

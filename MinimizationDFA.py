@@ -4,8 +4,8 @@
 # In[553]:
 
 
-import numpy as np
-import networkx as nx
+#import numpy as np
+#port networkx as nx
 import matplotlib.pyplot as plt
 import sys
 from collections import defaultdict

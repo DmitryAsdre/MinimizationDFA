@@ -7,7 +7,7 @@
 - pillow 
 
 ## Запуск 
-```math
+```
 python MinimizationDFA.py path_to_xml/test.xml
 ```
 
